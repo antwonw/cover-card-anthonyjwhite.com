@@ -1,6 +1,6 @@
 # Theme
 remote_theme: 'epidrome/cover-card'
-theme: 'cover-card'
+# theme: 'cover-card'
 
 # Title and tag line
 title: 'My name'
