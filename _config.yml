@@ -1,10 +1,9 @@
 # Theme
 remote_theme: 'epidrome/cover-card'
-# theme: 'cover-card'
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: 'Anthony White'
+description: 'Photojournalist. Technologist. Fun & Energetic.'
 
 # Images
 avatar: 'avatar.jpg'
@@ -12,14 +11,14 @@ background: 'background.jpg'
 favicon: 'favicon.ico'
 
 # Online profiles
-dribbble: ''
-facebook: ''
-twitter: ''
-linkedin: ''
-instagram: ''
-pinterest: ''
-youtube: ''
-github-user: ''
+#dribbble: ''
+#facebook: ''
+twitter: 'https://twitter.com/anthony_j_white'
+linkedin: 'https://www.linkedin.com/in/antwonw/'
+instagram: 'https://www.instagram.com/anthony_j_white/'
+#pinterest: ''
+#youtube: ''
+github-user: 'antwonw'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -29,11 +28,11 @@ github-user: ''
 #reddit: ''
 #medium:  ''
 #tumblr: ''
-weibo: ''
-vk: ''
-blog_url: ''
-email: ''
-messenger: ''
+#weibo: ''
+#vk: ''
+#blog_url: ''
+email: '&#97;&#119;&#64;&#97;&#110;&#116;&#104;&#111;&#110;&#121;&#106;&#119;&#104;&#105;&#116;&#101;&#46;&#99;&#111;&#109;'
+#messenger: ''
 
 # Advanced settings
 plugins:
