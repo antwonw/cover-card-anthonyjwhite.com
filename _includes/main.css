@@ -8,38 +8,23 @@ body {
     left: 0;
     margin: 0;
 }
-.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -999;
-  opacity: 0.8;
-}
-  @media screen and (max-width: 1024px) { /* Specific to this particular image */
-  .bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
 #fullscreen {
   top: 0;
   left: 0;
   min-height: 100%;
-  min-width: 100%;
-  width: auto;
+  min-width: 1024px;
+  width: 100%;
   height: auto;
   display: block;
   position: fixed;
   z-index: -999;
   opacity: 0.8;
+}
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+  #fullscreen {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }
 #avatar {
     height: 180px;
