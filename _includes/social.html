@@ -111,5 +111,9 @@
     <li><a class="fab fa-2x fa-snapchat" href="https://snapchat.com/add/{{ site.snapchat }}"><span class="description">Snapchat</span></a></li>
     {% endif %}
 
+    {% if site.mastodon %}
+    <li><a rel="me" class="fa fa-2x fa-mastodon" href="{{ site.mastodon }}"><span class="description">Mastodon</span></a></li>
+    {% endif %}
+
     {% include too_social.html %}
 </ul>
